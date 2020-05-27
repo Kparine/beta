@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100;300&display=swap");
+* {
+  padding: 0px;
+  margin: 0 'auto'; }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.App-content {
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+  min-height: 100vh;
+  position: relative; }
+  .App-content .footer-container {
+    bottom: 0;
+    height: 37px;
+    position: absolute;
+    color: #fff;
+    min-width: 100%;
+    background-color: #a3a3a3; }
+
+.header-container {
+  display: flex;
+  top: 0;
+  width: 100%;
+  min-height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
+  z-index: 10; }
+
+.header-content {
+  display: flex;
+  font-size: 30px;
+  margin: 30px 100px; }
+
+.brand-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  margin-left: 10px;
+  color: #021965; }
+  .brand-title .brand-subtitle {
+    font-weight: 200; }
+
+.dropdown-content {
+  margin-top: 30px;
+  height: auto; }
+
+.dropdown-label {
+  display: flex;
+  font-size: 11px;
+  color: #969696;
+  margin-bottom: 5px; }
+
+#dropDown {
+  background-color: #444444; }
+
+.card-container {
+  margin-top: 30px;
+  padding: 0px 10%;
+  min-height: 56vh; }
+
+.empty-state {
+  margin-top: '200px';
+  height: 'auto';
+  min-height: 65vh; }
+  .empty-state .empty-state-title {
+    font-family: "Roboto", sans-serif;
+    color: #021965; }
+
+.card-item + .card-item {
+  margin-top: 1px; }
+
+.card-item {
+  display: flex;
+  align-items: center;
+  height: 156px;
+  min-width: 922px;
+  background-color: #f5f5f5; }
+  .card-item.active {
+    background-color: #dbedca; }
+
+.card-item:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.card-item:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.contact-info {
+  margin-left: 60px; }
+
+.phone-title {
+  font-weight: '500';
+  color: #34cceb;
+  font-size: '20px'; }
+
+.sub-title {
+  font-size: 12px; }
+
+button.btn {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #34cceb;
+  margin-right: 30px;
+  color: #fff; }
+
+.patient-detail-img {
+  position: relative; }
+
+.patient-detail-checked {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  font-size: 45px; }
+
+.fineprint-content {
+  font-size: 9px;
+  margin: 15px 0px; }
